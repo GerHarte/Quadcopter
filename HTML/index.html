@@ -1,0 +1,47 @@
+<!DOCTYPE html> 
+<html>
+  <head>
+    <title>Slider Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+    <script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+    <script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.posting-slider').on('slidestop', function(e) {
+				$.post('cgi-bin/script_socket.py', { id: $(this).data('slider1'), value: e.target.value }, function(data, textStatus, jqXHR) {
+					console.log('POSTed: ' + textStatus);
+				});
+			});
+		});
+
+		$(document).ready(function() {
+			$('.posting-flip').on('change', function(e) {
+				$.post('cgi-bin/script_socket.py', { id: $(this).data('flip1'), value: e.target.value }, function(data, textStatus, jqXHR) {
+					console.log('POSTed: ' + textStatus);
+				});
+			});
+		});
+	</script>
+  </head>
+  <body>
+    <div data-role="page"> 
+        <div data-role="fieldcontain">
+			<fieldset data-role="controlgroup">
+				<label for="flip1">Activate Motor:</label>
+				<select name="flip1" id = "flip1"  class="posting-flip" data-role="slider">
+					<option value="0">Off</option>
+					<option value="50">On</option>
+				</select>
+				
+				<label for="slider1">Motor Speed:</label>
+				<input type="range" id="slider1" name="slider1" class="posting-slider" data-slider-id="1" value="0" min="0" max="100" data-highlight="true" />
+			</fieldset>
+		</div>
+
+        <div data-role="footer">
+        <h4>Page Footer</h4>
+        </div> 
+    </div> 
+  </body>
+</html>

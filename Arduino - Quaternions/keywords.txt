@@ -1,0 +1,81 @@
+#######################################
+# Syntax Coloring Map For I2Cdev
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+I2Cdev	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+readBit	KEYWORD2
+readBitW	KEYWORD2
+readBits	KEYWORD2
+readBitsW	KEYWORD2
+readByte	KEYWORD2
+readBytes	KEYWORD2
+readWord	KEYWORD2
+readWords	KEYWORD2
+writeBit	KEYWORD2
+writeBitW	KEYWORD2
+writeBits	KEYWORD2
+writeBitsW	KEYWORD2
+writeByte	KEYWORD2
+writeBytes	KEYWORD2
+writeWord	KEYWORD2
+writeWords	KEYWORD2
+
+#######################################
+# Instances (KEYWORD2)
+#######################################
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+L3G	KEYWORD1
+
+init	KEYWORD2
+enableDefault	KEYWORD2
+writeReg	KEYWORD2
+readReg	KEYWORD2
+read	KEYWORD2
+vector_cross	KEYWORD2
+vector_dot	KEYWORD2
+vector_normalize	KEYWORD2
+
+L3G_DEVICE_AUTO	LITERAL1
+L3G4200D_DEVICE	LITERAL1
+L3GD20_DEVICE	LITERAL1
+L3G_SA0_LOW	LITERAL1
+L3G_SA0_HIGH	LITERAL1
+L3G_SA0_AUTO	LITERAL1
+L3G_WHO_AM_I	LITERAL1
+L3G_CTRL_REG1	LITERAL1
+L3G_CTRL_REG2	LITERAL1
+L3G_CTRL_REG3	LITERAL1
+L3G_CTRL_REG4	LITERAL1
+L3G_CTRL_REG5	LITERAL1
+L3G_REFERENCE	LITERAL1
+L3G_OUT_TEMP	LITERAL1
+L3G_STATUS_REG	LITERAL1
+L3G_OUT_X_L	LITERAL1
+L3G_OUT_X_H	LITERAL1
+L3G_OUT_Y_L	LITERAL1
+L3G_OUT_Y_H	LITERAL1
+L3G_OUT_Z_L	LITERAL1
+L3G_OUT_Z_H	LITERAL1
+L3G_FIFO_CTRL_REG	LITERAL1
+L3G_FIFO_SRC_REG	LITERAL1
+L3G_INT1_CFG	LITERAL1
+L3G_INT1_SRC	LITERAL1
+L3G_INT1_THS_XH	LITERAL1
+L3G_INT1_THS_XL	LITERAL1
+L3G_INT1_THS_YH	LITERAL1
+L3G_INT1_THS_YL	LITERAL1
+L3G_INT1_THS_ZH	LITERAL1
+L3G_INT1_THS_ZL	LITERAL1
+L3G_INT1_DURATION	LITERAL1

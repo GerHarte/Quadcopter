@@ -1,0 +1,35 @@
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Arduino AHRS for the Core Electronics 10 DOF MEMS Sensor
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+This AHRS has been tested on the Arduino Nano 3.0 and it should work on any
+Arduino that has the memory to support it - including the Arduino Due. 
+
+Not only can it run on the Arduino Due but it can easily be changed to 
+operate using the second I2C bus on the Due. Just change line 8 in I2CDevice.h
+to this
+
+#define I2C_BUS Wire1
+
+
+
+This AHRS algorithm is based on the works of Sebastian Madgwick. 
+http://www.x-io.co.uk/open-source-imu-and-ahrs-algorithms/
+
+According to his report, this algorithm can perform 'as well as a high 
+quality commercial Kalman-based system'. It's basically the greatest thing for
+hobbyists who require AHRS information for their projects. 
+
+I have pretty much just copy-pasted Madwicks algorithm and wrapped it up with 
+my imu maths library. 
+
+The sensors in use come on the 10 DOF MEMs Sensor from Core Electronics. 
+This little board is one of the highest quality mems breakout boards that I 
+have tried. It's a seriously good board if you need accurate, low noise 
+measurements.
+
+It's available here.
+
+https://core-electronics.com.au/store/index.php/10-dof-mems-imu-sensor.html/?acc=1f0e3dad99908345f7439f8ffabdffc4
+
+
