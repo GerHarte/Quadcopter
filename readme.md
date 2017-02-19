@@ -19,7 +19,7 @@ The majority of the code sits in here. This includes
 * ReadRXTX.ino - Read inputs from the Remote Control
 * SetMotorSpeed.ino - Control the speed of the motors
 * SetupParamaters.ino
-* quadcopter.ino - Main script
+* quadcopter.ino - Main script including PID controller and Kalhman Filters
 
 Processing
 ----------
@@ -40,6 +40,8 @@ script_socket.py - A websocket script to interface between the web UI and the ar
 Photos
 ----------
 
+Some photos of the build
+
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_1.jpeg" />
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_2.jpeg" />
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_3.jpeg" />
@@ -57,5 +59,8 @@ Photos
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1045.JPG" />
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1047.JPG" />
 
+Some videos
+----------
 
-Details to follow.
+[![PID Tuning]](http://img.youtube.com/vi/saGkzMU6aV0/0.jpg)](http://www.youtube.com/watch?v=saGkzMU6aV0)
+[![PID Tuning2]](http://img.youtube.com/vi/rQ5uXYcNxQ0/0.jpg)](http://www.youtube.com/watch?v=rQ5uXYcNxQ0)
