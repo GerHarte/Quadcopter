@@ -61,7 +61,7 @@ Some photos of the build
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1045.JPG" />
 <img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1047.JPG" />
 
-Some videos
+Videos
 ----------
 
 [![PID Tuning](http://img.youtube.com/vi/saGkzMU6aV0/0.jpg)](http://www.youtube.com/watch?v=saGkzMU6aV0)
