@@ -25,7 +25,7 @@ Processing
 ----------
 * sketch_3d_Quadcopter.pde - A processing script to test the sensorts and simulate the quadcopter's attitude
 
-[![Quadcopter Processing Script]](http://img.youtube.com/vi/7WJHeJ8LGKk/0.jpg)](http://www.youtube.com/watch?v=7WJHeJ8LGKk)
+[![Quadcopter Processing Script](http://img.youtube.com/vi/7WJHeJ8LGKk/0.jpg)](http://www.youtube.com/watch?v=7WJHeJ8LGKk)
 
 HTML
 ----------
@@ -42,25 +42,25 @@ Photos
 
 Some photos of the build
 
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_1.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_2.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_3.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_4.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_5.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_6.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image_7.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/image.jpeg" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1033.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1034.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1038.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1039.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1040.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1043.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1045.JPG" />
-<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/tree/master/Photos/IMG_1047.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_1.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_2.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_3.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_4.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_5.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_6.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image_7.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/image.jpeg" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1033.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1034.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1038.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1039.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1040.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1043.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1045.JPG" />
+<img width = 300 height = 300 src="https://github.com/GerHarte/Quadcopter/raw/master/Photos/IMG_1047.JPG" />
 
 Some videos
 ----------
 
-[![PID Tuning]](http://img.youtube.com/vi/saGkzMU6aV0/0.jpg)](http://www.youtube.com/watch?v=saGkzMU6aV0)
-[![PID Tuning2]](http://img.youtube.com/vi/rQ5uXYcNxQ0/0.jpg)](http://www.youtube.com/watch?v=rQ5uXYcNxQ0)
+[![PID Tuning](http://img.youtube.com/vi/saGkzMU6aV0/0.jpg)](http://www.youtube.com/watch?v=saGkzMU6aV0)
+[![PID Tuning2](http://img.youtube.com/vi/rQ5uXYcNxQ0/0.jpg)](http://www.youtube.com/watch?v=rQ5uXYcNxQ0)
