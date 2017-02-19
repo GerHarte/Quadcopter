@@ -25,6 +25,8 @@ Processing
 ----------
 * sketch_3d_Quadcopter.pde - A processing script to test the sensorts and simulate the quadcopter's attitude
 
+Video:
+
 [![Quadcopter Processing Script](http://img.youtube.com/vi/7WJHeJ8LGKk/0.jpg)](http://www.youtube.com/watch?v=7WJHeJ8LGKk)
 
 HTML
